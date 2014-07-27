@@ -1,0 +1,29 @@
+
+/* body {
+	background:#00c6ff;
+} */
+
+#logo {
+	text-align:center;
+	margin:auto;
+	background:#00b4ff;
+	padding:20px;
+}
+
+#info {
+}
+
+.infobox {
+	margin-top:20px;
+	background:#eee;
+	padding:12px;
+	height:175px;
+}
+
+.center {
+	text-align: center
+}
+
+.left {
+	text-align:left;
+}

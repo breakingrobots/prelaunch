@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>SiteClimate &ndash; Zenful Incident Management :: Coming Soon</title>
+        <link rel="icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
+        <link rel="shortcut icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
+        <meta property="og:title" content="SiteClimate is Coming!"/>
+        <meta property="og:description" content="Alert and Incident Management using Machine Learning to make it Zenful"/>
+        <meta property="og:image" content="..."/> <!-- TODO: Replace this! -->
+        <meta property="og:url" content="http://www.siteclimate.com"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<!-- Bootstrap -->
+    	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+    	
+    	<link href="css/main.css" rel="stylesheet" media="screen">
+	</head>
+	<body>
+		<div class="navbar navbar-inverse navbar-static-top">
+  			<div class="navbar-inner">
+  			<!-- 
+    			<ul class="nav">
+      				<li><a href="#aboutModal" data-toggle="modal">About</a></li>
+    			</ul> -->
+  			</div>
+		</div>
+
+		<div id="logo">
+			<img src="img/logo2-full3.png"/>
+		</div>
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span4 infobox img-rounded">
+					<h4>What is SiteClimate?</h4>
+					SiteClimate is a machine learning based alert and inicident managment system powered by cloud technology for 	cloud technology.	
+				</div>
+				<div class="span4 infobox img-rounded">
+					<h4>Why SiteClimate?</h4>
+					SiteClimate is built with simplicity and usability as the focus so you can focus on what's important -- <br/><strong><small>YOUR APPLICATION!</small></strong>
+				</div>
+				<div class="span4 infobox img-rounded">
+					<h4>How do I Get it?</h4>
+					SiteClimate is currently in alpha testing. We hope to open up to a closed beta very soon. Leave us your email and we will invite you when we're ready.
+				</div>
+	
+			</div>
+			<hr>
+			<div class="row-fluid">
+				<div class="span12 center">
+					<h2><small>Drop your email here to get updates and an invite for the closed Beta</small></h2>
+					<div id="emailform">
+
+									<form>
+										<fieldset>
+										
+
+												<div class="controls">
+											    	<input id="Email" name="Email" type="text" placeholder="janedoe@awesome.com" 	class="	input-xlarge" required="">
+											    	<br/>
+											    	<div class="center">
+											    		<button id="" name="" class="btn btn-primary">Send</button>
+											    	</div>
+												</div>
+
+										</fieldset>
+									</form>
+
+					</div>
+				</div>
+			</div>
+
+			<hr>
+			<footer>
+				<div class="right pull-right">
+					<a href="#aboutModal" data-toggle="modal">About</a> | 
+					<a data-target="#termsModal" data-toggle="modal" href="terms.html">Terms</a> | 
+					<a data-target="#privacyModal" data-toggle="modal" href="privacy.html">Privacy</a>
+				</div>
+        		<p>&copy; SiteClimate Inc. 2014</p>
+      		</footer>
+		</div>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		
+		<!-- About Modal -->
+		<div id="aboutModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" aria-hidden="true">
+		  	<div class="modal-header">
+		  		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+		    	<h3 id="myModalLabel">About SiteClimate</h3>
+		  	</div>
+		 	<div class="modal-body">
+    			<p>SiteClimate was formed to address the incident and alert management woes that plague the technology industry. We set out to make a simple and clean interface for understanding what's going on in our production environment and, in turn, learned how to make incident management something that's zenful and intuitive. We do it by employing cutting edge machine learning technology to make intelligent decisions about what's important and what's noise and help you and your operations teams focus on where the root cause of the problem actually is.</p>
+  			</div>
+  			<div class="modal-footer">
+  		  		<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+ 			</div>
+		</div>
+
+		<!-- Privacy Modal -->
+		<div id="privacyModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="privacyModalLabel" aria-hidden="true">
+		  	<div class="modal-header">
+		  		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+		    	<h3 id="myModalLabel">Privacy Policy</h3>
+		  	</div>
+		 	<div class="modal-body">
+		 		<div class="te"></div>
+  			</div>
+  			<div class="modal-footer">
+  		  		<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+ 			</div>
+		</div>
+
+		<!-- Terms Modal -->
+		<div id="termsModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="termsModalLabel" aria-hidden="true">
+		  	<div class="modal-header">
+		  		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+		    	<h3 id="myModalLabel">Terms of Use</h3>
+		  	</div>
+		 	<div class="modal-body">
+		 		<div class="te"></div>
+  			</div>
+  			<div class="modal-footer">
+  		  		<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+ 			</div>
+		</div>
+
+
+  	</body>
+</html>
