@@ -6,8 +6,6 @@ GEM
       json
       rake
     rack (1.5.2)
-    rack-flash3 (1.0.5)
-      rack
     rack-protection (1.5.3)
       rack
     rake (10.3.2)
@@ -22,5 +20,4 @@ PLATFORMS
 
 DEPENDENCIES
   postmark
-  rack-flash3
   sinatra
