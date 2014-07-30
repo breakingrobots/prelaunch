@@ -6,9 +6,10 @@
 #logo {
 	text-align:center;
 	margin:auto;
-	background:#3c8adf;
-	background-image: url('/img/back2.jpg');
+	background:#00b4ff;
+	/* background-image: url('/img/back2.jpg'); */
 	padding:30px;
+	padding-top:60px;
 }
 
 #info {
