@@ -29,8 +29,8 @@ class SiteClimate < Sinatra::Base
 		your_api_key = ENV['POSTMARK_API_KEY']
 		client = Postmark::ApiClient.new(your_api_key)
 		email = params['email']
-	  	client.deliver(from: 'system@siteclimate.com',
-	  	            to: 'siteclimate@gmail.com',
+	  	client.deliver(from: 'mike@siteclimate.com',
+	  	            to: 'mike@siteclimate.com',
 	  	            subject: "[new beta email] #{email}",
 	  	            text_body: "Awesome! #{email} is interested in the app! Go you!")
 	  	notice = 'Thank you for submitting your email. We will contact you when we are ready for your help.'
