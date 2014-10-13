@@ -13,13 +13,21 @@
     	<!-- Bootstrap -->
     	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     	<link href="css/bootstrap-responsive.css" rel="stylesheet">
-    	
+
+      <link href="css/clouds.css" rel="stylesheet">
     	<link href="css/main.css" rel="stylesheet" media="screen">
 	</head>
 	<body>
-		<div id="logo">
-			<img src="img/logo3-full.png"/>
-		</div>
+  <div id = "clouds">
+  <div class="cloud x1"></div>
+  <div id="logo">
+      <img src="img/logo3-full.png"/>
+    </div>
+    <div class="cloud x2"></div>
+    <div class="cloud x3"></div>
+    <div class="cloud x4"></div>
+    <div class="cloud x5"></div>
+  </div>
 		<div class="container">
 			<% if @notice %>
 				<div id="mynotice">
@@ -31,7 +39,7 @@
 			<div class="row-fluid">
 				<div class="span4 infobox img-rounded">
 					<h4>What is SiteClimate?</h4>
-					SiteClimate is a machine learning based alert and inicident managment system powered by cloud technology for 	cloud technology.	
+					SiteClimate is a machine learning based alert and inicident managment system powered by cloud technology for 	cloud technology.
 				</div>
 				<div class="span4 infobox img-rounded">
 					<h4>Why SiteClimate?</h4>
@@ -41,7 +49,7 @@
 					<h4>How do I Get SiteClimate?</h4>
 					SiteClimate is currently in alpha testing. We hope to open up to a closed beta very soon. Leave us your email and we will invite you when we're ready.
 				</div>
-	
+
 			</div>
 			<hr>
 			<div class="row-fluid">
@@ -51,7 +59,7 @@
 
 									<form name="email" action="sendemail" method="post">
 										<fieldset>
-										
+
 
 												<div class="controls">
 											    	<input id="Email" name="email" type="text" placeholder="janedoe@awesome.com" 	class="	input-xlarge" required="">
@@ -71,8 +79,8 @@
 			<hr>
 			<footer>
 				<div class="right pull-right">
-					<a href="#aboutModal" data-toggle="modal">About</a> | 
-					<a data-target="#termsModal" data-toggle="modal" href="terms.html">Terms</a> | 
+					<a href="#aboutModal" data-toggle="modal">About</a> |
+					<a data-target="#termsModal" data-toggle="modal" href="terms.html">Terms</a> |
 					<a data-target="#privacyModal" data-toggle="modal" href="privacy.html">Privacy</a>
 					<p>
         			<a href="http://www.facebook.com/siteclimate"><img src="img/facebook-32x32.png"/></a>
@@ -85,7 +93,7 @@
 		</div>
 		<script src="http://code.jquery.com/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		
+
 		<!-- About Modal -->
 		<div id="aboutModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" aria-hidden="true">
 		  	<div class="modal-header">
